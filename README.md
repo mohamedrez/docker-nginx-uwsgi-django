@@ -6,8 +6,10 @@ This image contains configuration for basic **nginx**, **uwsgi**, and **django1.
 
 Quick Start
 ===========
+```bash
 docker build -t django_nginx .
 docker run -p 80:80 django_nginx
+```
 
 Visit http://localhost:80
 
